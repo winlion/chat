@@ -1,8 +1,5 @@
 # 先上效果
-![界面效果图](https://www.techidea8.com/app/chat/1.jpg)
-![界面效果图](https://www.techidea8.com/app/chat/2.jpg)
 ![界面效果图](https://www.techidea8.com/app/chat/3.jpg)
-![界面效果图](https://www.techidea8.com/app/chat/4.png)
 # 安装方法
 本系统升级到golang1.12,请开启如下支持
 ```
@@ -55,4 +52,7 @@ http://127.0.0.1:8080/user/login.shtml
 
 使用go mod 自动处理安装包
 
-## 4. 运行效果
+## 4. 其他 
+关注如下公众号找到对你有用的
+![界面效果图](https://www.techidea8.com/betaidea.png)
+![界面效果图](https://www.techidea8.com/techidea8-2.jpg)
