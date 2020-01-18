@@ -11,7 +11,7 @@ export GOPROXY=https://goproxy.io
 ```
 ## 1.下载项目
 ```bash
-git clone https://git.imooc.com/coding-339/chat.git
+git clone https://github.com/winlion/chat.git
 ```
 
 
