@@ -1,3 +1,8 @@
+# 先上效果
+![界面效果图](https://www.techidea8.com/app/chat/1.jpg)
+![界面效果图](https://www.techidea8.com/app/chat/2.jpg)
+![界面效果图](https://www.techidea8.com/app/chat/3.jpg)
+![界面效果图](https://www.techidea8.com/app/chat/4.png)
 # 安装方法
 本系统升级到golang1.12,请开启如下支持
 ```
@@ -48,21 +53,6 @@ http://127.0.0.1:8080/user/login.shtml
 
 ## 3.依赖包安装
 
-本项目依赖的`x/net`,`x/time`包可能会被墙，使用如下指令可以安装
+使用go mod 自动处理安装包
 
-```bash
-$mkdir -p $GOPATH/src/golang.org/x/
-$cd $GOPATH/src/golang.org/x/
-$git clone https://github.com/golang/net.git net
-$git clone https://github.com/golang/time.git time
-
-```
-
-其他包依赖
-
-```bash
-go get github.com/go-xorm/xorm
-go get github.com/gorilla/websocket
-go get gopkg.in/fatih/set.v0
-go get github.com/go-xorm/xorm
-```
+## 4. 运行效果
