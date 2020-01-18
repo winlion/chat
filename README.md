@@ -53,8 +53,7 @@ http://127.0.0.1:8080/user/login.shtml
 使用go mod 自动处理安装包
 
 ## 4. 操作说明
-关注如下公众号找到对你有用的  
-
+关注如下公众号找到`im系统10万并发` 认真阅读
 ![界面效果图](https://www.techidea8.com/betaidea.png)
 
 ![界面效果图](https://www.techidea8.com/techidea8-2.jpg)
