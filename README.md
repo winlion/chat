@@ -51,7 +51,7 @@ const (
 用户名:密码@(ip:port)/数据库名称?charset=utf8
 ```
 
-### 2.3 配置子网掩码
+### 2.3 配置子网掩码,防火墙开放3000
 修改ctrl/chat.go  179行左右
 ```cgo
 func udpsendproc() {
