@@ -23,19 +23,8 @@ git clone https://github.com/winlion/chat.git
 
 
 ## 2.项目配置，非常重要
-### 2.1 ide配置
 
-+ goland IDE
-
-ADD Configuration->左上角+->go build类型,右侧填写
-```
-files :{你的项目路径}/hellox.x/main.go
-workdir:{你的项目路径}/hellox.x/
-```
-+ vscode
-安装golang插件即可,无需配置,推荐使用
-
-### 2.2 数据库配置
+### 2.1 数据库配置
 修改service/init.go 中数据库配置文件
 ```cgo
 const (
@@ -51,7 +40,7 @@ const (
 用户名:密码@(ip:port)/数据库名称?charset=utf8
 ```
 
-### 2.3 配置子网掩码,防火墙开放3000
+### 2.2 配置子网掩码,防火墙开放3000
 修改ctrl/chat.go  179行左右
 ```cgo
 func udpsendproc() {
@@ -70,10 +59,10 @@ func udpsendproc() {
 举个简单一点的例子,比如当前应用所安装环境是`192.168.2.106`，则需要修改参数为`net.IPv4(192, 168, 2, 255)`
 `Port: 3000`为通信端口。本系统依赖于UPD进行分布式部署。因此需要在防火墙内开放该端口。
 
-### 2.4 分布式部署
+### 2.3 分布式部署
 本系统支持分布式部署,要求是将当前应用部署在同一个网段中。代码修改同2.3
 
-### 2.5 页面入口地址
+### 2.4 页面入口地址
 ```
 http://127.0.0.1:8080/user/login.shtml
 ```
