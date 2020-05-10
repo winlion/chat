@@ -11,7 +11,7 @@ import (
 
 const (
 	driveName = "mysql"
-	dsName    = "winliondev:winliondev@(www.imwinlion.com:3306)/tech-chat?charset=utf8"
+	dsName    = "root:root@(127.0.0.1:3306)/tech-chat?charset=utf8"
 	showSQL   = true
 	maxCon    = 10
 	NONERROR  = "noerror" //没有错误
